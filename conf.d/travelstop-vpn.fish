@@ -1,4 +1,4 @@
-function travelstop-vpn -e fish_prompt
+function travelstop-vpn -e fish_prompt -v AWS_PROFILE
   set -l proxy HTTPS_PROXY=http://localhost:8888
   set -l need_proxy
 
